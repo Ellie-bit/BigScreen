@@ -1,24 +1,4 @@
-## 一、项目描述
 
-- [**React 版本请点击这里查看，全新界面超级好看！！！(o ﾟ v ﾟ)ノ**](https://gitee.com/MTrun/react-big-screen)
-- 一个基于 Vue、Datav、Echart 框架的 " **数据大屏项目** "，通过 Vue 组件实现数据动态刷新渲染，内部图表可实现自由替换。部分图表使用 DataV 自带组件，可进行更改，详情请点击下方 DataV 文档。
-- 项目需要全屏展示（按 F11）。
-- 项目部分区域使用了全局注册方式，增加了打包体积，在实际运用中请使用 **按需引入**。
-- 拉取项目之后，建议按照自己的功能区域重命名文件，现以简单的位置进行区分。
-- 项目环境：Vue-cli-3.0、Webpack-4.0、Npm-6.13、Node-v12.16。
-- 请拉取 master 分支的代码，其余是开发分支。
-
-友情链接：
-
-1.  [Vue 官方文档](https://cn.vuejs.org/v2/guide/instance.html)
-2.  [DataV 官方文档](http://datav.jiaminghi.com/guide/)
-3.  [echarts 实例](https://echarts.apache.org/examples/zh/index.html)，[echarts API 文档](https://echarts.apache.org/zh/api.html#echarts)
-4.  [项目 gitee 地址（国内速度快）](https://gitee.com/MTrun/big-screen-vue-datav)
-
-项目展示
-![项目展示](https://images.gitee.com/uploads/images/2020/0411/221307_0f8af2e7_4964818.gif '20200411_221020.gif')
-
-## 二、主要文件介绍
 
 | 文件                | 作用/功能                                                              |
 | ------------------- | --------------------------------------------------------------------- |
