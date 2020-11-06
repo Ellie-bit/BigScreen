@@ -14,7 +14,7 @@
         <CentreLeft1Chart />
       </div>
       <!-- 4个主要的数据 -->
-      <div class="bottom-data">
+      <!-- <div class="bottom-data">
         <div class="item-box" v-for="(item,index) in numberData" :key="index">
           <div class="d-flex">
             <span class="coin">￥</span>
@@ -25,7 +25,7 @@
             <span class="colorYellow">(件)</span>
           </p>
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
 </template>
@@ -124,11 +124,11 @@ export default {
 <style lang="scss">
 #centreLeft1 {
   padding: 0.2rem;
-  height: 5.125rem;
-  min-width: 3.75rem;
+  height: 1.125rem;
+  min-width: 1.75rem;
   border-radius: 0.0625rem;
   .bg-color-black {
-    height: 4.8125rem;
+    height: 2.8125rem;
     border-radius: 0.125rem;
   }
   .text {
@@ -136,31 +136,31 @@ export default {
   }
   .chart-box {
     margin-top: 0.2rem;
-    width: 2.125rem;
-    height: 2.125rem;
+    width: 1.125rem;
+    height: 1.125rem;
     .active-ring-name {
       padding-top: 0.125rem;
     }
   }
 
-  .bottom-data {
-    .item-box {
-      float: right;
-      position: relative;
-      width: 50%;
-      color: #d3d6dd;
-      // 金币
-      .coin {
-        position: absolute;
-        left: 0.1rem;
-        top: 0.2125rem;
-        font-size: 0.25rem;
-        color: #ffc107;
-      }
-      .colorYellow {
-        color: yellowgreen;
-      }
-    }
-  }
+//   .bottom-data {
+//     .item-box {
+//       float: right;
+//       position: relative;
+//       width: 50%;
+//       color: #d3d6dd;
+//       // 金币
+//       .coin {
+//         position: absolute;
+//         left: 0.1rem;
+//         top: 0.2125rem;
+//         font-size: 0.25rem;
+//         color: #ffc107;
+//       }
+//       .colorYellow {
+//         color: yellowgreen;
+//       }
+//     }
+//   }
 }
 </style>
